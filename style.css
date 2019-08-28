@@ -1,0 +1,64 @@
+body {
+  font-family: papyrus;
+  /* color: red; */
+  background-image: url('./smoke.jpg');
+  background-size: contain;
+}
+
+h1 {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  font-size: 50px;
+  border: dotted 3px hotpink;
+}
+
+button {
+  font-family: comic sans ms;
+  font-size: 20px;
+  box-shadow: 5px 5px #333;
+  min-width: 100px;
+  margin: 5px;
+}
+
+button:hover {
+  background-image: linear-gradient(red, white,blue);
+}
+
+.red {
+  color: red;
+}
+
+.biggie {
+  width: 400px;
+}
+
+.smallie {
+  width: 200px;
+}
+
+img {
+  width: 200px;
+}
+
+.function_div {
+  margin: 10px;
+  min-height: 300px;
+  border: solid 1px #333;
+  background-color: rgba(255, 235, 205, 50%);
+}
+
+.function_div h2 {
+  text-align: center;
+}
+
+.demo_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+
+.demo_div p {
+  margin: 10px;
+}
